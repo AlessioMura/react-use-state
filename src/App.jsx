@@ -21,7 +21,7 @@ function App() {
     <>
       <div>
         <h1>Leard Web Development</h1>
-        <div>
+        <div className='btn_list'>
           {languages.map(lnElement => (
             <AppButton key={lnElement.id} ln={lnElement} onClick={() => handleClick(lnElement)} />
           ))}

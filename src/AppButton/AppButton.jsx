@@ -1,9 +1,9 @@
-/* import style from './AppButton.module.css' */
+import style from './AppButton.module.css'
 
 
 export default function AppButton({ln, onClick}) {
     return (
-        <button onClick={onClick}>
+        <button onClick={onClick} className={style.btn}>
             {ln.title}
         </button>
     )

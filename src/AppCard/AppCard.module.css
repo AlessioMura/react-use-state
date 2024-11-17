@@ -1,0 +1,12 @@
+.card {
+    margin: 3rem;
+    padding: 1.5rem;
+    border: solid grey;
+    border-radius: 20px;
+
+    h3{
+        margin-bottom: 10px;
+    }
+
+    font-size: 17px;
+}
