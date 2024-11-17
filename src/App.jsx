@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import AppCard from './AppCard/AppCard'
 import AppButton from './AppButton/AppButton'
 import languages from './db/languages'
 
@@ -25,6 +26,7 @@ function App() {
             <AppButton key={lnElement.id} ln={lnElement} onClick={() => handleClick(lnElement)} />
           ))}
         </div>
+        <AppCard ln={ln} />
       </div>
     </>
   )
